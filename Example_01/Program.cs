@@ -5,8 +5,7 @@ using static Library;
 int[] array = new int[12];
 FillArray(array);
 Console.WriteLine(printArray(array));
-var x = GetPosNeg(array);
-Console.WriteLine(x.p);
-Console.WriteLine(x.n);
+Console.WriteLine("Сумма отрицательных элементов массива: " + GetNegativeResult(array));
+Console.WriteLine("Сумма положительных элементов массива: " + GetPositiveResult(array));
 
 
